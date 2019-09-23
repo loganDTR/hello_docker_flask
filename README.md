@@ -7,6 +7,10 @@ test for python rest api flask
 
 > docker run -d -p 5000:5000 my_docker_flask:latest
 
-Check:
+Check if container is up:
 
 > docker ps
+
+Check response:
+
+> curl localhost:5000
